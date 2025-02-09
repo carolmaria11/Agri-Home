@@ -1,0 +1,135 @@
+.footer_b {
+  color: white;
+  padding: 24px;
+  background-color: rgb(3, 27, 3);
+  width: 100%;
+  margin-top: 32px;
+  height: 450px;
+}
+
+/* .footer-container_b {
+  width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+} */
+
+.footer-container_b {
+  width: 100%;
+  width: 1400px;
+  margin: 10px auto;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.15
+  ); /* More transparency for glass effect */
+  backdrop-filter: blur(15px) saturate(180%); /* Stronger blur and saturation */
+  -webkit-backdrop-filter: blur(15px) saturate(180%);
+  border-radius: 16px; /* Softer rounded edges */
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  /* border: 1px solid rgba(255, 255, 255, 0.25); Subtle border for definition */
+  transition: all 0.3s ease-in-out;
+  height: 380px;
+}
+
+.footer-grid_b {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.footer-title_b {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.footer-text_b {
+  font-size: 0.875rem;
+}
+
+.footer-links_b {
+  font-size: 0.875rem;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links_b li {
+  margin-bottom: 8px;
+}
+
+.footer-links_b a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-links_b a:hover {
+  text-decoration: underline;
+  color: lightgray;
+}
+
+.footer-input_b {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.footer-button_b {
+  margin-top: 8px;
+  width: 100%;
+  background: #16a34a;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.footer-button_b:hover {
+  background: #15803d;
+}
+
+.footer-socials_b {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.footer-socials_b a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-socials_b a:hover {
+  color: lightgray;
+}
+
+.footer-bottom_b {
+  margin-top: 44px;
+  border-top: 1px solid gray;
+  padding-top: 16px;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.footer-bottom_b a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom_b a:hover {
+  text-decoration: underline;
+}

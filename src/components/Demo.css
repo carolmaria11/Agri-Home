@@ -1,0 +1,118 @@
+/* Main Container */
+.outer_demo {
+  background-color: #d1e8d1;
+}
+.container_d {
+  min-height: 90vh;
+  margin-top: -120px;
+  background: #d1e8d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+@media (min-width: 768px) {
+  .container_d {
+    flex-direction: row;
+  }
+}
+
+/* Card Section */
+.card_d {
+  width: 800px;
+  height: 450px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.card-bg_d {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Text Options */
+.text-options_d {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.text-options_d h2 {
+  font-size: 2rem;
+  color: #166534;
+  font-weight: bold;
+}
+
+/* Options */
+.options_d {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.option_d {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.option_d .circle_d {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  background: gray;
+}
+
+.option_d p {
+  font-size: 1.125rem;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.option_d:hover p {
+  color: #16a34a;
+}
+
+.option_d.active_d .circle_d {
+  background: #16a34a;
+}
+
+.option_d.active_d p {
+  color: #166534;
+  font-weight: bold;
+}
+
+/* Diagnose Button */
+.diagnose-btn_d {
+  padding: 12px 24px;
+  background: #16a34a;
+  color: white;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  border: none;
+  outline: none;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.diagnose-btn_d:hover {
+  background: #15803d;
+  transform: scale(1.05);
+}
