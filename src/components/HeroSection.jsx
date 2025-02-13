@@ -11,7 +11,7 @@ const HeroSection = () => {
           <div className="carding_h">
             {/* Background Image */}
             <img
-              src="main1.jpg"
+              src="main2.png"
               alt="Hero Section"
               className="background-img"
             />

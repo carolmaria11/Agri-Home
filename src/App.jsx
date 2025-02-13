@@ -1,30 +1,19 @@
 import React from "react";
-import Testimonial from "./components/Testimonial";
-import HeroSection from "./components/HeroSection";
-import PopularCourses from "./components/PopularCourses";
-import { BentoGridDemo } from "./components/BentoGrid";
-import Footer from "./components/Footer";
-import AboutUs from "./components/AboutUs";
-import Gpt from "./components/Gpt";
-import Demo from "./components/Demo";
-import Blog from "./components/Blog";
-import FeaturedProducts from "./components/FeaturedProducts";
+import GptMain from './components/GPT/GptMain'
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Home from "./Home";
+import { BrowserRouter, Routes , Route } from "react-router-dom";
+// import MainLayout from "./components/BLOGS/lay+ outs/MainLayout";
 
 function App() {
   return (
-    <>
-      <HeroSection />
-      <AboutUs />
-      <BentoGridDemo />
-      <Demo />
-      <PopularCourses />
-      <Blog />
-      <FeaturedProducts />
-      <Gpt />
-      <Testimonial />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/gpt" element={<GptMain />} />
+        {/* <Route path="/blogs" element={<MainLayout/>} /> */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 
