@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Gpt.css"; // Import the CSS file
 
 export default function PlaceholdersAndVanishInputDemo() {
@@ -49,13 +49,14 @@ function RedirectButton({ placeholders }) {
           </motion.p>
         </AnimatePresence>
       </div>
-
+      <Link to="/gpt">
       <button
-        onClick={() => navigate("/new-page")}
+        // onClick={() => navigate("/new-page")}
         className="redirect-button_g"
       >
         Try Now
       </button>
+      </Link>
     </div>
   );
 }

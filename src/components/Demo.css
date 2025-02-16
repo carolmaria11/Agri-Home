@@ -34,8 +34,10 @@
 .card-bg_d {
   position: absolute;
   inset: 0;
-  background-size: cover;
+  /* background-size: fill; */
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f5efe6;
 }
 
 /* Text Options */

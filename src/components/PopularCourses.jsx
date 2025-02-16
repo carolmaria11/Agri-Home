@@ -1,5 +1,6 @@
 import React from "react";
 import "./PopularCourses.css";
+import { Link } from "react-router-dom";
 
 const PopularCourses = () => {
   const courses = [
@@ -11,6 +12,7 @@ const PopularCourses = () => {
         "Learn eco-friendly farming practices that enhance productivity while preserving the environment.",
       image: "/s1.jpg",
       reverse: false,
+      path: "https://agri-lms.vercel.app/course-preview/introduction-to-sustainable-agriculture"
     },
     {
       id: 2,
@@ -20,6 +22,7 @@ const PopularCourses = () => {
         "Master organic farming methods, from composting to pesticide-free cultivation.",
       image: "/s2.jpg",
       reverse: true,
+      path: "https://agri-lms.vercel.app/course-preview/organic-farming-techniques"
     },
     {
       id: 3,
@@ -29,6 +32,7 @@ const PopularCourses = () => {
         "Discover how technology like IoT and AI can optimize crop yield and resource management.",
       image: "/s3.jpg",
       reverse: false,
+      path: "https://agri-lms.vercel.app/course-preview/precision-farming-smart-agriculture"
     },
     {
       id: 4,
@@ -38,6 +42,7 @@ const PopularCourses = () => {
         "Understand soil health improvement techniques and best practices for crop sustainability.",
       image: "/s4.jpg",
       reverse: true,
+      path: "https://agri-lms.vercel.app/course-preview/advanced-soil-health-crop-management"
     },
   ];
 
@@ -64,7 +69,7 @@ const PopularCourses = () => {
                 </div>
               )}
               <div className="text_p">
-                <h2 className="course-title">{course.title}</h2>
+                <Link to={course.path}><h2 className="course-title">{course.title}</h2></Link>
                 <h3 className="course-instructor">{course.instructor}</h3>
                 <p className="course-description">{course.description}</p>
               </div>

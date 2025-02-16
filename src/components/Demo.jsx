@@ -5,12 +5,12 @@ export default function Demo() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const cards = [
-    { id: 1, title: "Capture a Clear Image", images: ["/lf1.jpg"] },
-    { id: 2, title: " Upload for Analysis ", images: ["/lf2.jpg"] },
+    { id: 1, title: "Capture a Clear Image", images: ["/demo1.jpg"] },
+    { id: 2, title: " Upload for Analysis ", images: ["/demo2.jpeg"] },
     {
       id: 3,
       title: "Follow the Suggested Precautions",
-      images: ["/lf3.jpg"],
+      images: ["/demo3.jpeg"],
     },
   ];
 

@@ -47,8 +47,9 @@ const Blog = () => {
   return (
     <div className="b-main-container">
       <br />
-      <h1 className="text-center text-4xl md:text-5xl font-extrabold mt-10 mb-6">
-        Explore the <span className="text-green-700">Future of Farming</span>
+      <h1 className="text-center text-3xl md:text-5xl font-bold m-14">
+        Explore the
+        <span style={{ color: "#007f3a" }}> Future of Farming </span>
       </h1>
 
       <div className="blog-container_bl" onClick={handleScreenClick}>

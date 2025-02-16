@@ -7,73 +7,74 @@ const products = [
     title: "Organic Seeds",
     description:
       "High-quality, organic seeds for vegetables, fruits, flowers to support sustainable farming.",
-    image: "4.jpg",
+    image: "seed1.png",
     tags: ["Eco-Friendly", "Sustainable"],
     bgClass: "bg1",
   },
   {
     id: 2,
-    title: "Natural Fertilizer",
-    description:
-      "Rich in nutrients, this organic compost improves soil health boosts plant growth.",
-    image: "2.jpg",
-    tags: ["Organic", "Soil Enrichment"],
-    bgClass: "bg2",
-  },
-  {
-    id: 3,
-    title: "Liquid Fertilizer",
-    description:
-      "An organic fertilizer made from plant extracts that enhances plant growth increases yield.",
-    image: "3.jpg",
-    tags: ["Eco-Friendly", "Sustainable"],
-    bgClass: "bg2",
-  },
-  {
-    id: 4,
-    title: "Compost Booster",
-    description:
-      "A powerful organic solution to accelerate composting and enhance soil fertility.",
-    image: "4.jpg",
-    tags: ["Fast Acting", "Chemical-Free"],
-    bgClass: "bg1",
-  },
-  {
-    id: 5,
-    title: "Organic Pest Control",
-    description:
-      "Safe and effective natural pest control solutions to protect your plants.",
-    image: "2.jpg",
-    tags: ["Non-Toxic", "Environment Safe"],
-    bgClass: "bg1",
-  },
-  {
-    id: 6,
-    title: "Soil Conditioner",
+    title: "Seed Booster",
     description:
       "Improves soil structure, enhances water retention, and boosts plant growth.",
-    image: "3.jpg",
+    image: "grem.png",
     tags: ["Mineral Rich", "Eco-Friendly"],
     bgClass: "bg2",
   },
   {
-    id: 7,
+    id: 3,
+    title: "Natural Fertilizer",
+    description:
+      "Rich in nutrients, this organic compost improves soil health boosts plant growth.",
+    image: "fer1.png",
+    tags: ["Organic", "Soil Enrichment"],
+    bgClass: "bg2",
+  },
+  {
+    id: 4,
+    title: "Crop Growth Enhancer",
+    description:
+      "Safe and effective natural pest control solutions to protect your plants.",
+    image: "enha.png",
+    tags: ["Non-Toxic", "Environment Safe"],
+    bgClass: "bg1",
+  },
+  {
+    id: 5,
+    title: "Compost Booster",
+    description:
+      "A powerful organic solution to accelerate composting and enhance soil fertility.",
+    image: "comp.png",
+    tags: ["Fast Acting", "Chemical-Free"],
+    bgClass: "bg1",
+  },
+  {
+    id: 6,
     title: "Organic Pest Control",
     description:
       "Safe and effective natural pest control solutions to protect your plants.",
-    image: "4.jpg",
+    image: "pest.png",
     tags: ["Non-Toxic", "Environment Safe"],
     bgClass: "bg1",
+  },
+  {
+    id: 7,
+    title: "Liquid Fertilizer",
+    description:
+      "An organic fertilizer made from plant extracts that enhances plant growth increases yield.",
+    image: "fer4.png",
+    tags: ["Eco-Friendly", "Sustainable"],
+    bgClass: "bg2",
   },
   {
     id: 8,
     title: "Soil Conditioner",
     description:
       "Improves soil structure, enhances water retention, and boosts plant growth.",
-    image: "2.jpg",
+    image: "soilcon.png",
     tags: ["Mineral Rich", "Eco-Friendly"],
     bgClass: "bg2",
   },
+  
 ];
 
 const FeaturedProducts = () => {

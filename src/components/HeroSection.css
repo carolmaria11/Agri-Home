@@ -20,13 +20,13 @@ body {
 }
 .container_h {
   display: flex;
-  height: 100vh;
+  height: 900px;
   flex-wrap: wrap;
   /* padding: 1.25rem; */
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
-  margin-top: -10px;
+  margin-top: -45px;
 }
 .card_h {
   position: relative;
