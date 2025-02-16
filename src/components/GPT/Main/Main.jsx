@@ -24,7 +24,7 @@ const Main = () => {
     <div className="main">
       <div className="nav">
         <p>AgriAI</p>
-        <img src={assets.user_icon} alt="" />
+        <img src={assets.Vikas} alt="" />
       </div>
       <div className="main-container">
         {!showResult ? (
