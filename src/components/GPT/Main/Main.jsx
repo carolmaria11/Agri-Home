@@ -42,44 +42,44 @@ const Main = () => {
                 className="card"
                 onClick={() =>
                   handleCardClick(
-                    "Suggest helpful tips for growing organic tomatoes"
+                    "My plant's leaves are turning yellow. What could be causing this?"
                   )
                 }
               >
-                <p>Suggest helpful tips for growing organic tomatoes</p>
+                <p>My plant's leaves are turning yellow. What could be causing this?</p>
                 <img src={assets.compass_icon} alt="" />
               </div>
               <div
                 className="card"
                 onClick={() =>
                   handleCardClick(
-                    "Summarize the best practices for crop rotation"
+                    "I noticed some brown spots on my plant's leaves. Is it a disease?"
                   )
                 }
               >
-                <p>Summarize the best practices for crop rotation</p>
+                <p>I noticed some brown spots on my plant's leaves. Is it a disease?</p>
                 <img src={assets.bulb_icon} alt="" />
               </div>
               <div
                 className="card"
                 onClick={() =>
                   handleCardClick(
-                    "Brainstorm ideas for sustainable farming practices"
+                    "My plant has curling leaves. What could be the reason for this?"
                   )
                 }
               >
-                <p>Brainstorm ideas for sustainable farming practices</p>
+                <p>My plant has curling leaves. What could be the reason for this?</p>
                 <img src={assets.message_icon} alt="" />
               </div>
               <div
                 className="card"
                 onClick={() =>
                   handleCardClick(
-                    "Provide advice on preventing plant diseases in cucumbers"
+                    "The leaves on my plant are wilting, but the soil is moist. What is happening?"
                   )
                 }
               >
-                <p>Provide advice on preventing plant diseases in cucumbers</p>
+                <p>The leaves on my plant are wilting, but the soil is moist. What is happening?</p>
                 <img src={assets.code_icon} alt="" />
               </div>
             </div>

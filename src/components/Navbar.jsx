@@ -56,13 +56,13 @@ const Navbar = () => {
           {/* After Login: Show all other links */}
           <SignedIn>
             <li>
-              <Link to="/">Insights</Link>
+              <Link to="https://agri-insights-nu.vercel.app/">Insights</Link>
             </li>
             <li>
               <Link to="https://agri-lms.vercel.app/dashboard">AgriLearn</Link>
             </li>
             <li>
-              <Link to="/">Store</Link>
+              <Link to="https://agri-store-spm.vercel.app/">Store</Link>
             </li>
             <li>
               <Link to="/gpt">AgriAI</Link>

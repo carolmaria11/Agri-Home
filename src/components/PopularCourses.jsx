@@ -61,25 +61,27 @@ const PopularCourses = () => {
             >
               {!course.reverse && (
                 <div className="card_p">
-                  <img
+                  <Link to={course.path}><img
                     src={course.image}
                     alt={course.title}
                     className="course-image"
-                  />
+                  /></Link>
                 </div>
               )}
               <div className="text_p">
-                <Link to={course.path}><h2 className="course-title">{course.title}</h2></Link>
+                <h2 className="course-title">{course.title}</h2>
                 <h3 className="course-instructor">{course.instructor}</h3>
                 <p className="course-description">{course.description}</p>
               </div>
               {course.reverse && (
                 <div className="card_p">
+                <Link to={course.path}>
                   <img
-                    src={course.image}
-                    alt={course.title}
-                    className="course-image"
-                  />
+                      src={course.image}
+                      alt={course.title}
+                      className="course-image"
+                    />
+                  </Link>
                 </div>
               )}
             </div>
