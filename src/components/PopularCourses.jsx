@@ -69,7 +69,7 @@ const PopularCourses = () => {
                 </div>
               )}
               <div className="text_p">
-                <h2 className="course-title">{course.title}</h2>
+              <Link to={course.path}><h2 className="course-title">{course.title}</h2></Link>
                 <h3 className="course-instructor">{course.instructor}</h3>
                 <p className="course-description">{course.description}</p>
               </div>
