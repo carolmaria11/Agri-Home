@@ -68,7 +68,7 @@ const Navbar = () => {
               <Link to="/gpt">AgriAI</Link>
             </li>
             <li>
-              <Link to="/">Plant Disease Detection</Link>
+              <Link to="http://127.0.0.1:5000/">Plant Disease Detection</Link>
             </li>
             <li>
               <Link to="/dashboard">
