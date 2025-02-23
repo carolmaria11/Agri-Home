@@ -53,7 +53,7 @@ export default function Demo() {
             </div>
             <button
               className="diagnose-btn_d"
-              onClick={() => alert(`Diagnosing: ${cards[activeIndex].title}`)}
+              onClick={"http://127.0.0.1:5000/"}
             >
               Diagnose Now
             </button>
