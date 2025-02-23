@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Demo.css";
+import { Link } from "react-router-dom";
 
 export default function Demo() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -51,12 +52,11 @@ export default function Demo() {
                 </div>
               ))}
             </div>
-            <button
-              className="diagnose-btn_d"
-              onClick={"http://127.0.0.1:5000/"}
-            >
+            <Link to={"http://127.0.0.1:5000/"}><button
+              className="diagnose-btn_d">
               Diagnose Now
             </button>
+            </Link>
           </div>
         </div>
       </div>
