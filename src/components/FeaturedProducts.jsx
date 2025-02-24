@@ -67,7 +67,7 @@ const products = [
     id: 7,
     title: "Liquid Fertilizer",
     description:
-      "An organic fertilizer made from plant extracts that enhances plant growth increases yield.",
+      "An organic fertilizer is made from plant extracts that enhances plant growth increases yield.",
     image: "fer4.png",
     tags: ["Eco-Friendly", "Sustainable"],
     bgClass: "bg2",
