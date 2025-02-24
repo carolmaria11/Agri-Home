@@ -62,7 +62,7 @@ const Navbar = () => {
               <Link to="https://agri-lms.vercel.app/dashboard">AgriLearn</Link>
             </li>
             <li>
-              <Link to="https://agri-store-spm.vercel.app/">Store</Link>
+              <Link to="http://localhost:3000/">Store</Link>
             </li>
             <li>
               <Link to="/gpt">AgriAI</Link>
